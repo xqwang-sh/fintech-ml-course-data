@@ -15,6 +15,6 @@
 | `insurance-premium` | 回归 | 960,000 | 240,000 | `Premium Amount` |
 | `lending-club` | 分类 | 321,690 | 78,310 | `default` |
 
-Home Credit Stability 暂不在这个公开目录中。原因和合规要求见仓库根目录的 [NOTICE.md](../../../NOTICE.md) 和课程讲义的项目页。
+Home Credit Stability 不在这个公开目录中，也不再作为本课程的学生项目选项。原因和合规要求见仓库根目录的 [NOTICE.md](../../../NOTICE.md)。
 
 教师隐藏标签不会发布。你只能提交使用 `student_hidden_features.parquet` 生成的预测文件，不能自行评估隐藏行的真实标签。
