@@ -1,0 +1,9 @@
+schema: data_assets.lineage.v1
+release: classroom/v1
+source_description: Fixed course samples derived from the public sources listed in NOTICE.md.
+transformations:
+- fixed course sampling
+- fixed train, validation, and test splits
+- California dirty teaching copy
+- artificial leakage column in the UCI teaching copy
+internal_upstream: not published; use the file hashes in manifest.yaml to identify this release.
