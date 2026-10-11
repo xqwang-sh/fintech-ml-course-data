@@ -56,7 +56,7 @@ project_train = pd.read_parquet(
 
 `loan-approval`、`loan-payback`、`bank-marketing`、`insurance-premium`、`lending-club`。
 
-Home Credit Stability 项目暂不把数据上传到 GitHub。该竞赛的官方规则将数据使用限制在竞赛参与和 Kaggle 论坛范围内，因此不能公开再分发。项目说明仍保留这个选项，但选它前请向任课教师获取合规的数据访问方式。
+Home Credit Stability 不再作为本课程的学生项目选项。该竞赛的官方规则将数据使用限制在竞赛参与和 Kaggle 论坛范围内，因此本仓库不公开再分发该数据。
 
 ## 版本和检查
 
