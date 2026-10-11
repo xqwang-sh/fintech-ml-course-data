@@ -1,0 +1,29 @@
+schema: data_assets.manifest.v1
+asset: fintech-classroom-exercises
+release: classroom/v1
+status: released
+published_at: '2026-10-11'
+upstream: pinned course release; see NOTICE.md
+files:
+- name: data/california_base.parquet
+  rows: 2000
+  bytes: 99933
+  sha256: 70f443b36a652ce0958dfada3176ce47474a08152ee4e0f2310a64f012224ff2
+- name: data/california_dirty.parquet
+  rows: 2000
+  bytes: 99717
+  sha256: 2488b9a942de6f25ec5aa80dea8c47383e0724272b8ed86f83825d2d46be8155
+- name: data/uci_credit_base.parquet
+  rows: 5000
+  bytes: 266360
+  sha256: b0fb893645263465a5ee26687bb64f30f6d218a5ad057c9da0102266682f380a
+- name: data/uci_credit_with_leak.parquet
+  rows: 5000
+  bytes: 268352
+  sha256: e64048350b222daf4017bf93c82053fb30474e5e0f07ec5318d48538efa57035
+sampling:
+  california_rows: 2000
+  uci_rows: 5000
+restrictions:
+- Teacher-only mutation log is not included.
+- This public manifest contains no local absolute paths.

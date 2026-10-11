@@ -1,0 +1,10 @@
+checked_at: '2026-10-11'
+project_count: 5
+published_parquet_file_count: 10
+published_row_count: 3002639
+published_parquet_bytes: 64408942
+hidden_label_student_exposure_count: 0
+primary_key_duplicate_rate: 0.0
+parquet_readable_count: 10
+restricted_project_excluded: home-credit-stability
+gates_passed: true
