@@ -1,0 +1,15 @@
+status: passed
+california_base_rows: 2000
+uci_base_rows: 5000
+split_counts:
+  california:
+    train: 1200
+    validation: 400
+    test: 400
+  uci:
+    train: 3000
+    validation: 1000
+    test: 1000
+source_traceability_coverage: 1.0
+dirty_mutations: 80
+leakage_column: post_default_collection_calls

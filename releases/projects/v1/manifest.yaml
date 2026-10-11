@@ -1,0 +1,46 @@
+schema: data_assets.manifest.v1
+asset: fintech-student-projects
+release: projects/v1-public
+status: released
+published_at: '2026-10-11'
+upstream: pinned course project release; see NOTICE.md
+projects:
+- project_id: loan-approval
+  target: loan_status
+  task: classification
+  source_rows: 58645
+  student_train_rows: 46916
+  hidden_rows: 11729
+  split_rule: fixed 80/20 random split
+- project_id: loan-payback
+  target: loan_paid_back
+  task: classification
+  source_rows: 593994
+  student_train_rows: 475195
+  hidden_rows: 118799
+  split_rule: fixed 80/20 random split
+- project_id: bank-marketing
+  target: y
+  task: classification
+  source_rows: 750000
+  student_train_rows: 600000
+  hidden_rows: 150000
+  split_rule: fixed 80/20 random split
+- project_id: insurance-premium
+  target: Premium Amount
+  task: regression
+  source_rows: 1200000
+  student_train_rows: 960000
+  hidden_rows: 240000
+  split_rule: fixed 80/20 random split
+- project_id: lending-club
+  target: default
+  task: classification
+  source_rows: 400000
+  student_train_rows: 321690
+  hidden_rows: 78310
+  split_rule: ordered issue-date split
+restrictions:
+- Home Credit Stability is excluded because its competition rules prohibit redistribution outside the competition.
+- Teacher hidden labels are excluded.
+- Raw source files are excluded.

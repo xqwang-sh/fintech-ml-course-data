@@ -1,0 +1,16 @@
+projects:
+- project_id: loan-approval
+  target: loan_status
+  task: classification
+- project_id: loan-payback
+  target: loan_paid_back
+  task: classification
+- project_id: bank-marketing
+  target: y
+  task: classification
+- project_id: insurance-premium
+  target: Premium Amount
+  task: regression
+- project_id: lending-club
+  target: default
+  task: classification
